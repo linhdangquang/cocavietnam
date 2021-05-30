@@ -1,0 +1,470 @@
+main {
+    width: 100%;
+    height: 3000px;
+    font-family: Roboto-Regular;
+    overflow: hidden;
+}
+
+.banner1 {
+    background-image: url(../img/Homepage\ Header\ Image\ 1\ Desktop.png);
+}
+.banner2 {
+    background-image: url(../img/Homepage\ Header\ Image\ 2\ Desktop.png);
+}
+.banner3 {
+    background-image: url(../img/coca-cola-original-brand-page-desktop-1600x700.jpg);
+}
+.banner4 {
+    background-image: url(../img/fr-can-homepage-community-desktop.png);
+}
+.banner5 {
+    background-image: url(../img/banner5.jpg);
+}
+.banner6 {
+    background-image: url(../img/Header\ Image\ 6\ Desktop.png);
+}
+.banner {
+    display: flex;
+    position: relative;
+    margin-bottom: -2px;
+    justify-content: space-between;
+    background-size: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.banner-text {
+    width: 30%;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+.large-text {
+    font-size: 2.375rem;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+ 
+.small-text::before {
+    content: '';
+    background-image: url(../img/bubble-white.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    height: 40px;
+    padding: 0;
+    position: absolute;
+    vertical-align: text-bottom;
+    width: 15px;
+    left: -1.5rem;
+    top: -2rem;
+
+}
+.small-text-black::before {
+    content: '';
+    background-image: url(../img/bubble-grey.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    height: 40px;
+    padding: 0;
+    position: absolute;
+    vertical-align: text-bottom;
+    width: 15px;
+    left: -1.5rem;
+    top: -2rem;
+}
+.small-text {
+    font-size: 1.2rem;
+    position: relative;
+    letter-spacing: 1px;
+    font-family: Roboto-Thin;
+    font-weight: 500;
+}
+.explore-btn {
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.explore-btn a:hover {
+    color: crimson;
+}
+.scroll {
+    position: absolute;
+    bottom: 14px;
+    right: 47%;
+    font-size: 20px;
+    font-family: Roboto-Light;
+    font-weight: 500;
+}
+.scroll-black {
+    position: absolute;
+    bottom: 14px;
+    right: 47%;
+    font-size: 20px;
+    font-family: Roboto-Light;
+    font-weight: 500;
+}
+.scroll::before {
+    content: '';
+    background-image: url(../img/home-scroll-down--white.svg);
+    background-size: contain;
+    display: inline-block;
+    height: 36px;
+    padding: 10px;
+    position: absolute;
+    vertical-align: text-bottom;
+    width: 9px;
+    z-index: 2;
+    bottom: 2rem;
+    background-repeat: no-repeat;
+    margin-left: 15px;
+}
+.scroll-black::before {
+    content: '';
+    background-image: url(../img/home-scroll-down--grey.svg);
+    background-size: contain;
+    display: inline-block;
+    height: 36px;
+    padding: 10px;
+    position: absolute;
+    vertical-align: text-bottom;
+    width: 9px;
+    z-index: 2;
+    bottom: 2rem;
+    background-repeat: no-repeat;
+    margin-left: 15px;
+}
+.indicator {
+    width: 30px;
+    height: 100%;
+    background-image: url(../img/side_indicator_w_1.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 25%;
+    right: 0;
+    transform: scale(1.1);
+}
+.indicator-right {
+    width: 30px;
+    height: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 25%;
+    right: 0;
+    transform: scale(1.1);
+}
+.indicator-black {
+    width: 30px;
+    height: 100%;
+    background-image: url(../img/side_indicator_b_2.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 25%;
+    right: 0;
+    transform: scale(1.1);
+}
+.indicator2 {
+    width: 30px;
+    height: 100%;
+    background-image: url(../img/side_indicator_w_3.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 25%;
+    right: 0;
+    transform: scale(1.1);
+}
+.indicator3 {
+    background-image: url(../img/side_indicator_w_4.svg);
+}
+.indicator4 {
+    background-image: url(../img/side_indicator_w_5.svg);
+}
+.indicator5 {
+    background-image: url(../img/side_indicator_w_6.svg);
+}
+
+.bottom-coca {
+    text-align: center;
+    margin: 35px 20px ;
+}
+h2 {
+    font-size: 35px;
+    font-family: Roboto-Bold;
+    letter-spacing: 2px;
+    text-shadow:5px 5px 10px black;
+}
+.item {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.textcoca,.btn-coca {
+    font-family: Roboto-Medium;
+    font-size: 20px;
+    
+}
+.btn-coca {
+    font-size: 18px;
+    background-color: #000;
+    width: 180px;
+    padding: 3px 0px;
+    border-radius: 15px;
+    transition: 0.4s;
+    margin: 10px 0;
+}
+.btn-coca:hover {
+    background-color: rgb(252, 35, 35);
+    box-shadow: 0px 0px 10px black;
+}
+.coca-item {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+    align-items: center;
+}
+.coca-item .item img {
+    transition: 0.4s;
+}
+.coca-item .item img:hover {
+    transform: scale(1.15);
+}
+
+
+
+/* RESPONSIVE */
+@media only screen
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    main {
+        width: 100%;
+        height: 1100px;
+        font-family: Roboto-Regular;
+        overflow: hidden;
+    }
+      /* MENU */
+      header {
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 45px;
+    }
+    
+    nav li,.nav-icon li {
+        display: inline-block;
+        font-size: 13px;
+    }
+    .nav-icon {
+        display: flex;
+        margin-top: 50px !important;
+    }
+    .nav-icon li a img {
+        width: 20px;
+    }
+    nav li a,.nav-icon li a {
+        color: #313131;
+        
+    }
+    nav:first-child li a img{
+        transition: 0.5s;
+        transform: scale(0.8);
+    }
+    nav:first-child li a img:hover {
+        transform: scale(1.1);
+    }
+    nav li {
+        padding: 0 10px;
+    }
+    nav li .cool-link:hover::after {
+        width: 100%;
+    }
+    nav li .cool-link::after{
+        content: '';
+        display: block;
+        width: 0;
+        height: 3px;
+        background: #FD4D4D;
+        transition: width .4s ;
+    }
+    .nav-icon {
+        margin-top: 27px;
+    }
+    .nav-icon li {
+        padding: 0 5px;
+    }
+    .large-text {
+        font-size: 1rem;
+        padding-bottom: 10px;
+        font-weight: bold;
+    }
+     .small-text {
+        font-size: 0.8rem !important;
+        position: relative;
+        font-family: Roboto-Thin;
+        font-weight: 500;
+    }
+    .banner-text {
+        width: 50%;
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+    }
+    .banner {
+        display: flex;
+        position: relative;
+        margin-bottom: -2px;
+        justify-content: space-between;
+        background-size: 100%;
+        height: 186px;
+        background-repeat: no-repeat;
+    }
+    .scroll {
+        display: none;
+    }
+    .scroll-black {
+        display: none;
+    }
+    .indicator {
+        width: 30px;
+        height: 100%;
+        background-image: url(../img/side_indicator_w_1.svg);
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 10% !important;
+        right: 0;
+        transform: scale(0.9) !important;
+    }
+    .indicator-right {
+        width: 30px !important;
+        height: 100%;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 10% !important;
+        right: 0;
+        transform: scale(0.9) !important;
+    }
+    .indicator-black {
+        width: 30px !important;
+        height: 100%;
+        background-image: url(../img/side_indicator_b_2.svg);
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 10% !important;
+        right: 0;
+        transform: scale(0.9) !important;
+    }
+    .indicator2 {
+        width: 30px !important;
+        height: 100%;
+        background-image: url(../img/side_indicator_w_3.svg);
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 10% !important;
+        right: 0;
+        transform: scale(0.9) !important;
+    }
+    .bottom-coca {
+        text-align: center;
+        margin: 5px ;
+    }
+    h2 {
+        font-size: 25px !important;
+        font-family: Roboto-Bold;
+        letter-spacing: 2px;
+        text-shadow:5px 5px 10px black;
+    }
+    .item {
+        width: 40% !important;
+        display: block !important;
+        align-items: center;
+        flex-direction: column;
+        padding: 0 5px !important;
+    }
+    
+    .item img {
+        width: 45px !important;
+    }
+    .textcoca,.btn-coca {
+        font-family: Roboto-Medium;
+        font-size: 12px !important;
+        
+    }
+    .btn-coca {
+        font-size: 18px;
+        background-color: #000;
+        width: 100px !important;
+        padding: 3px 0px;
+        border-radius: 15px;
+        transition: 0.4s;
+        margin: 0 !important;
+    }
+    .btn-coca:hover {
+        background-color: rgb(252, 35, 35);
+        box-shadow: 0px 0px 10px black;
+    }
+    .coca-item {
+        display: flex;
+        justify-content: space-around;
+        margin: 20px 0 !important;
+        align-items: flex-end !important;
+        padding: 30px 0;
+    }
+    .coca-item .item img {
+        transition: 0.4s;
+    }
+    .coca-item .item img:hover {
+        transform: scale(1.15);
+    }
+    footer {
+        height: 190px;
+        background-color: #4A4A4A;
+        position: relative;
+        color: #c4c4c4;
+    }
+    .right li {
+        display: inline-block;
+        font-family: Roboto-Regular;
+        padding: 0 !important;
+        font-size: 14px !important;
+    }
+    .right li:hover {
+        text-shadow: 3px 0px black;
+    }
+    .right {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+    .description {
+        position: absolute;
+        top: 50px !important;
+        left: 15px !important;
+    }
+    
+    .description p {
+        font-family: Roboto-Light;
+        padding: 5px 0 !important;
+        font-size: 0.8rem !important;
+    }
+    
+    .social-icon {
+        position: absolute;
+        right: 7px !important;
+        bottom: 0px;
+        display: inline-flex;
+    }
+    .social-icon .icon {
+        padding: 0 2px;
+    }
+    .icon a img {
+        width: 30px !important;
+    }
+    
+}

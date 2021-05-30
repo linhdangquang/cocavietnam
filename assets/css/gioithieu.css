@@ -1,0 +1,139 @@
+main {
+    width: 100%;
+    height: 3000px;
+    font-family: Roboto-Regular;
+    overflow: hidden;
+}
+.bannertop {
+    background-image: url(../img/About\ Our\ Company\ Header.png);
+    background-size: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bannertop p {
+    font-family: Roboto-Bold;
+    font-size: 60px;
+    text-align: center;
+    padding-bottom: 45px;
+    letter-spacing: 2px;
+}
+.text-alone {
+    font-size: 22px;
+    padding: 25px 100px;
+    text-align: left;
+    font-family: Roboto-Regular;
+}
+.first-text-content {
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.first-letter {
+    position: relative;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.letter-item,.letter-item2 {
+    font-size: 20px;
+    font-family: Roboto-Regular;
+    letter-spacing: 2px;
+    margin: 30px 0;
+    line-height: 35px;
+}
+.letter-item::before {
+    content: '';
+    background-image: url(../img/bubble.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    height: 35px;
+    padding: 0;
+    position: absolute;
+    vertical-align: text-bottom;
+    width: 15px;
+    left: -1.5rem;
+    top: 3.3rem;
+}
+.letter-item2::before {
+    content: '';
+    background-image: url(../img/bubble.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    height: 35px;
+    padding: 0;
+    position: absolute;
+    vertical-align: text-bottom;
+    width: 15px;
+    left: -1.5rem;
+    bottom: 9.5rem;
+}
+.image-first {
+    width: 60%;
+}
+.content-zizac {
+    padding: 70px 50px;
+}
+.item-ziczac {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.large-text {
+    font-size: 2.3rem;
+    padding-bottom: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.large-text a {
+    transition: 0.4s;
+}
+.large-text a:hover {
+    color: crimson;
+}
+.text-ziczac {
+    padding: 40px 50px;
+    padding-right: 20px;
+}
+.small-text-black::before {
+    content: '';
+    background-image: url(../img/bubble.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    height: 40px;
+    padding: 0;
+    position: absolute;
+    vertical-align: text-bottom;
+    width: 15px;
+    left: -1.5rem;
+    top: -2rem;
+}
+.small-text {
+    font-size: 1.2rem;
+    position: relative;
+    letter-spacing: 1px;
+    font-family: Roboto-Light;
+    font-weight: 500;
+    line-height: 25px;
+}
+.explore-btn {
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.explore-btn a:hover {
+    color: crimson;
+}
+img {
+    transition: 0.5s;
+}
+img:hover {
+    transform: scale(1.05);
+}

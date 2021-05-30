@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+html {
+    scroll-behavior: smooth;
+  }
+@font-face {
+    font-family: Roboto-Medium;
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: Roboto-Thin;
+    src: url(../fonts/Roboto-Thin.ttf);
+}
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto-Light;
+    src: url(../fonts/Roboto-Light.ttf);
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+.container {
+    margin: 0 auto;
+    font-family: Roboto-Regular;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.black {
+    text-decoration: none;
+    color: #313131;
+}
+.white {
+    text-decoration: none;
+    color: #fff;
+}
+header {
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 45px;
+}
+
+nav li,.nav-icon li {
+    display: inline-block;
+    font-size: 25px;
+}
+nav li a,.nav-icon li a {
+    color: #313131;
+    
+}
+nav:first-child li a img{
+    transition: 0.5s;
+}
+nav:first-child li a img:hover {
+    transform: scale(1.1);
+}
+nav li {
+    padding: 0 10px;
+}
+nav li .cool-link:hover::after {
+    width: 100%;
+}
+nav li .cool-link::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #FD4D4D;
+    transition: width .4s ;
+}
+
+.nav-icon {
+    margin-top: 27px;
+}
+.nav-icon li {
+    padding: 0 5px;
+}
+footer {
+    height: 190px;
+    background-color: #4A4A4A;
+    position: relative;
+    color: #c4c4c4;
+}
+.right li {
+    display: inline-block;
+    font-family: Roboto-Regular;
+    padding: 5px;
+}
+.right li:hover {
+    text-shadow: 3px 0px black;
+}
+.right {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+.description {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.description p {
+    font-family: Roboto-Light;
+    padding: 15px 0;
+}
+
+.social-icon {
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+    display: inline-flex;
+}
+.social-icon .icon {
+    padding: 0 10px;
+}
